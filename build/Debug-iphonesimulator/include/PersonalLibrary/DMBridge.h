@@ -7,8 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 #import "DMBridgeBase.h"
-#import <WebKit/WebKit.h>
 
 @interface DMBridge : NSObject <UIWebViewDelegate, DMBridgeBaseDelegate>
 
