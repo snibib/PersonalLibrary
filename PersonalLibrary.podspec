@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "PersonalLibrary"
-  s.version      = "0.3"
+  s.version      = "0.4"
   s.summary      = "library for personal test"
 
   # This description is used to generate tags and improve search results.
