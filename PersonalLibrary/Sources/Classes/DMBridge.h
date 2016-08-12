@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import "DMBridgeBase.h"
+#import <JSONModel/JSONModel.h>
 
 @interface DMBridge : NSObject <UIWebViewDelegate, DMBridgeBaseDelegate>
 
