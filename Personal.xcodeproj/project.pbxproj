@@ -1,0 +1,1047 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1C1917E41E83E545006EBD15 /* Apgrate */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1C1917E71E83E545006EBD15 /* Build configuration list for PBXAggregateTarget "Apgrate" */;
+			buildPhases = (
+				1C1917E81E83E554006EBD15 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = Apgrate;
+			productName = Apgrate;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1C1917DE1E83DB4C006EBD15 /* Personal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1917DC1E83DB4C006EBD15 /* Personal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C1918811E83E745006EBD15 /* DMBubbleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1917F71E83E745006EBD15 /* DMBubbleAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C1918821E83E745006EBD15 /* DMBubbleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1917F81E83E745006EBD15 /* DMBubbleAnimation.m */; };
+		1C1918831E83E745006EBD15 /* DMDropBoxAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1917F91E83E745006EBD15 /* DMDropBoxAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C1918841E83E745006EBD15 /* DMDropBoxAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1917FA1E83E745006EBD15 /* DMDropBoxAnimation.m */; };
+		1C1918851E83E745006EBD15 /* DMGifImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1917FB1E83E745006EBD15 /* DMGifImage.h */; };
+		1C1918861E83E745006EBD15 /* DMGifImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1917FC1E83E745006EBD15 /* DMGifImage.m */; };
+		1C1918871E83E745006EBD15 /* DMGifView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1917FD1E83E745006EBD15 /* DMGifView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C1918881E83E745006EBD15 /* DMGifView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1917FE1E83E745006EBD15 /* DMGifView.m */; };
+		1C1918891E83E745006EBD15 /* DMGrowAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1917FF1E83E745006EBD15 /* DMGrowAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C19188A1E83E745006EBD15 /* DMGrowAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1918001E83E745006EBD15 /* DMGrowAnimation.m */; };
+		1C19188B1E83E745006EBD15 /* DMMagicScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1918011E83E745006EBD15 /* DMMagicScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C19188C1E83E745006EBD15 /* DMMagicScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1918021E83E745006EBD15 /* DMMagicScrollView.m */; };
+		1C19188D1E83E745006EBD15 /* DMPropertyAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1918031E83E745006EBD15 /* DMPropertyAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C19188E1E83E745006EBD15 /* DMPropertyAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1918041E83E745006EBD15 /* DMPropertyAnimation.m */; };
+		1C19188F1E83E745006EBD15 /* DMPullToRefreshView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1918051E83E745006EBD15 /* DMPullToRefreshView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C1918901E83E745006EBD15 /* DMPullToRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1918061E83E745006EBD15 /* DMPullToRefreshView.m */; };
+		1C1918911E83E745006EBD15 /* DMBridgeRN.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1918091E83E745006EBD15 /* DMBridgeRN.h */; };
+		1C1918921E83E745006EBD15 /* DMBridgeRN.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C19180A1E83E745006EBD15 /* DMBridgeRN.m */; };
+		1C1918931E83E745006EBD15 /* DMModuleBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C19180B1E83E745006EBD15 /* DMModuleBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C1918941E83E745006EBD15 /* DMModuleBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C19180C1E83E745006EBD15 /* DMModuleBase.m */; };
+		1C1918951E83E745006EBD15 /* DMModuleGalleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C19180D1E83E745006EBD15 /* DMModuleGalleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C1918961E83E745006EBD15 /* DMModuleGalleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C19180E1E83E745006EBD15 /* DMModuleGalleon.m */; };
+		1C1918971E83E745006EBD15 /* DMBridgeHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1918101E83E745006EBD15 /* DMBridgeHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C1918981E83E745006EBD15 /* DMBridgeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1918111E83E745006EBD15 /* DMBridgeHelper.m */; };
+		1C1918991E83E745006EBD15 /* DMBridgeJavascript.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1918121E83E745006EBD15 /* DMBridgeJavascript.h */; };
+		1C19189A1E83E745006EBD15 /* DMBridgeJavascript.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1918131E83E745006EBD15 /* DMBridgeJavascript.m */; };
+		1C19189B1E83E745006EBD15 /* DMBridgeObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1918141E83E745006EBD15 /* DMBridgeObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C19189C1E83E745006EBD15 /* DMBridgeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1918151E83E745006EBD15 /* DMBridgeObject.m */; };
+		1C19189D1E83E745006EBD15 /* DMJSPageBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1918161E83E745006EBD15 /* DMJSPageBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C19189E1E83E745006EBD15 /* DMJSPageBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1918171E83E745006EBD15 /* DMJSPageBridge.m */; };
+		1C19189F1E83E745006EBD15 /* DMPage+DefaultNavigatorBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1918191E83E745006EBD15 /* DMPage+DefaultNavigatorBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C1918A01E83E745006EBD15 /* DMPage+DefaultNavigatorBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C19181A1E83E745006EBD15 /* DMPage+DefaultNavigatorBar.m */; };
+		1C1918A11E83E745006EBD15 /* UIWebView+CheckGalleonExist.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C19181B1E83E745006EBD15 /* UIWebView+CheckGalleonExist.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C1918A21E83E745006EBD15 /* UIWebView+CheckGalleonExist.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C19181C1E83E745006EBD15 /* UIWebView+CheckGalleonExist.m */; };
+		1C1918A31E83E745006EBD15 /* DMCacheObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C19181E1E83E745006EBD15 /* DMCacheObject.h */; };
+		1C1918A41E83E745006EBD15 /* DMCacheObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C19181F1E83E745006EBD15 /* DMCacheObject.m */; };
+		1C1918A51E83E745006EBD15 /* DMLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1918201E83E745006EBD15 /* DMLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C1918A61E83E745006EBD15 /* DMLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1918211E83E745006EBD15 /* DMLog.m */; };
+		1C1918A71E83E745006EBD15 /* DMMutiProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1918221E83E745006EBD15 /* DMMutiProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C1918A81E83E745006EBD15 /* DMMutiProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1918231E83E745006EBD15 /* DMMutiProxy.m */; };
+		1C1918A91E83E745006EBD15 /* DMReflectUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1918241E83E745006EBD15 /* DMReflectUtil.h */; };
+		1C1918AA1E83E745006EBD15 /* DMReflectUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1918251E83E745006EBD15 /* DMReflectUtil.m */; };
+		1C1918AB1E83E745006EBD15 /* DMSafeThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1918261E83E745006EBD15 /* DMSafeThread.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C1918AC1E83E745006EBD15 /* DMStringUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1918271E83E745006EBD15 /* DMStringUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C1918AD1E83E745006EBD15 /* DMStringUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1918281E83E745006EBD15 /* DMStringUtils.m */; };
+		1C1918AE1E83E745006EBD15 /* DMUrlConcat.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1918291E83E745006EBD15 /* DMUrlConcat.h */; };
+		1C1918AF1E83E745006EBD15 /* DMUrlConcat.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C19182A1E83E745006EBD15 /* DMUrlConcat.m */; };
+		1C1918B01E83E745006EBD15 /* DMUrlDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C19182B1E83E745006EBD15 /* DMUrlDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C1918B11E83E745006EBD15 /* DMUrlDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C19182C1E83E745006EBD15 /* DMUrlDecoder.m */; };
+		1C1918B21E83E745006EBD15 /* DMUrlEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C19182D1E83E745006EBD15 /* DMUrlEncoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C1918B31E83E745006EBD15 /* DMUrlEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C19182E1E83E745006EBD15 /* DMUrlEncoder.m */; };
+		1C1918B41E83E745006EBD15 /* DMWeakify.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C19182F1E83E745006EBD15 /* DMWeakify.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C1918B51E83E745006EBD15 /* DMMagicMoveCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1918321E83E745006EBD15 /* DMMagicMoveCell.h */; };
+		1C1918B61E83E745006EBD15 /* DMMagicMoveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1918331E83E745006EBD15 /* DMMagicMoveCell.m */; };
+		1C1918B71E83E745006EBD15 /* DMPageAnimateMagicMove.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1918341E83E745006EBD15 /* DMPageAnimateMagicMove.h */; };
+		1C1918B81E83E745006EBD15 /* DMPageAnimateMagicMove.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1918351E83E745006EBD15 /* DMPageAnimateMagicMove.m */; };
+		1C1918B91E83E745006EBD15 /* DMPageAnimatePopBottom.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1918361E83E745006EBD15 /* DMPageAnimatePopBottom.h */; };
+		1C1918BA1E83E745006EBD15 /* DMPageAnimatePopBottom.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1918371E83E745006EBD15 /* DMPageAnimatePopBottom.m */; };
+		1C1918BB1E83E745006EBD15 /* DMPageAnimatePopRight.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1918381E83E745006EBD15 /* DMPageAnimatePopRight.h */; };
+		1C1918BC1E83E745006EBD15 /* DMPageAnimatePopRight.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1918391E83E745006EBD15 /* DMPageAnimatePopRight.m */; };
+		1C1918BD1E83E745006EBD15 /* DMPageAnimatePushLeft.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C19183A1E83E745006EBD15 /* DMPageAnimatePushLeft.h */; };
+		1C1918BE1E83E745006EBD15 /* DMPageAnimatePushLeft.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C19183B1E83E745006EBD15 /* DMPageAnimatePushLeft.m */; };
+		1C1918BF1E83E745006EBD15 /* DMPageAnimatePushPop.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C19183C1E83E745006EBD15 /* DMPageAnimatePushPop.h */; };
+		1C1918C01E83E745006EBD15 /* DMPageAnimatePushPop.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C19183D1E83E745006EBD15 /* DMPageAnimatePushPop.m */; };
+		1C1918C11E83E745006EBD15 /* DMPageAnimatePushTop.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C19183E1E83E745006EBD15 /* DMPageAnimatePushTop.h */; };
+		1C1918C21E83E745006EBD15 /* DMPageAnimatePushTop.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C19183F1E83E745006EBD15 /* DMPageAnimatePushTop.m */; };
+		1C1918C31E83E745006EBD15 /* DMNavigator.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1918401E83E745006EBD15 /* DMNavigator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C1918C41E83E745006EBD15 /* DMNavigator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1918411E83E745006EBD15 /* DMNavigator.m */; };
+		1C1918C51E83E745006EBD15 /* DMBridgeProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1918431E83E745006EBD15 /* DMBridgeProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C1918C61E83E745006EBD15 /* DMEvaluateScript.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1918441E83E745006EBD15 /* DMEvaluateScript.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C1918C71E83E745006EBD15 /* DMMagicMoveSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1918451E83E745006EBD15 /* DMMagicMoveSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C1918C81E83E745006EBD15 /* DMPageAnimate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1918461E83E745006EBD15 /* DMPageAnimate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C1918C91E83E745006EBD15 /* DMPageAware.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1918471E83E745006EBD15 /* DMPageAware.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C1918CA1E83E745006EBD15 /* DMPageLifeCircle.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1918481E83E745006EBD15 /* DMPageLifeCircle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C1918CB1E83E745006EBD15 /* DKBaseRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C19184A1E83E745006EBD15 /* DKBaseRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C1918CC1E83E745006EBD15 /* DKBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C19184B1E83E745006EBD15 /* DKBaseRequest.m */; };
+		1C1918CD1E83E745006EBD15 /* DKBaseResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C19184C1E83E745006EBD15 /* DKBaseResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C1918CE1E83E745006EBD15 /* DKBaseResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C19184D1E83E745006EBD15 /* DKBaseResponse.m */; };
+		1C1918CF1E83E745006EBD15 /* DKHttpClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C19184E1E83E745006EBD15 /* DKHttpClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C1918D01E83E745006EBD15 /* DKHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C19184F1E83E745006EBD15 /* DKHttpClient.m */; };
+		1C1918D11E83E745006EBD15 /* DMNibController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1918511E83E745006EBD15 /* DMNibController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C1918D21E83E745006EBD15 /* DMNibController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1918521E83E745006EBD15 /* DMNibController.m */; };
+		1C1918D31E83E745006EBD15 /* DMPage.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1918531E83E745006EBD15 /* DMPage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C1918D41E83E745006EBD15 /* DMPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1918541E83E745006EBD15 /* DMPage.m */; };
+		1C1918D51E83E745006EBD15 /* DMRNPage.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1918551E83E745006EBD15 /* DMRNPage.h */; };
+		1C1918D61E83E745006EBD15 /* DMRNPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1918561E83E745006EBD15 /* DMRNPage.m */; };
+		1C1918D71E83E745006EBD15 /* DMWebPage.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1918571E83E745006EBD15 /* DMWebPage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C1918D81E83E745006EBD15 /* DMWebPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1918581E83E745006EBD15 /* DMWebPage.m */; };
+		1C1918D91E83E745006EBD15 /* DKStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C19185A1E83E745006EBD15 /* DKStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C1918DA1E83E745006EBD15 /* DKStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C19185B1E83E745006EBD15 /* DKStorage.m */; };
+		1C1918DB1E83E745006EBD15 /* DKStorageUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C19185C1E83E745006EBD15 /* DKStorageUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C1918DC1E83E745006EBD15 /* DKStorageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C19185D1E83E745006EBD15 /* DKStorageUtil.m */; };
+		1C1918DD1E83E745006EBD15 /* DMCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C19185E1E83E745006EBD15 /* DMCache.h */; };
+		1C1918DE1E83E745006EBD15 /* DMCache.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1C19185F1E83E745006EBD15 /* DMCache.mm */; };
+		1C1918DF1E83E745006EBD15 /* WTChartsRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1918631E83E745006EBD15 /* WTChartsRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C1918E01E83E745006EBD15 /* WTChartsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1918641E83E745006EBD15 /* WTChartsRequest.m */; };
+		1C1918E11E83E745006EBD15 /* WTChartsResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1918661E83E745006EBD15 /* WTChartsResponse.h */; };
+		1C1918E21E83E745006EBD15 /* WTChartsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1918671E83E745006EBD15 /* WTChartsResponse.m */; };
+		1C1918E31E83E745006EBD15 /* WTChartsSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1918681E83E745006EBD15 /* WTChartsSetting.h */; };
+		1C1918E41E83E745006EBD15 /* WTChartsSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1918691E83E745006EBD15 /* WTChartsSetting.m */; };
+		1C1918E51E83E745006EBD15 /* WTSourceSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C19186A1E83E745006EBD15 /* WTSourceSetting.h */; };
+		1C1918E61E83E745006EBD15 /* WTSourceSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C19186B1E83E745006EBD15 /* WTSourceSetting.m */; };
+		1C1918E71E83E745006EBD15 /* WTSourceUnzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C19186C1E83E745006EBD15 /* WTSourceUnzip.h */; };
+		1C1918E81E83E745006EBD15 /* WTSourceUnzip.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C19186D1E83E745006EBD15 /* WTSourceUnzip.m */; };
+		1C1918E91E83E745006EBD15 /* WTSourceUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C19186E1E83E745006EBD15 /* WTSourceUpdate.h */; };
+		1C1918EA1E83E745006EBD15 /* WTSourceUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C19186F1E83E745006EBD15 /* WTSourceUpdate.m */; };
+		1C1918EB1E83E745006EBD15 /* WTUpdateListInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1918701E83E745006EBD15 /* WTUpdateListInfo.h */; };
+		1C1918EC1E83E745006EBD15 /* WTUpdateListInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1918711E83E745006EBD15 /* WTUpdateListInfo.m */; };
+		1C1918ED1E83E745006EBD15 /* WTUpdateSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1918721E83E745006EBD15 /* WTUpdateSource.h */; };
+		1C1918EE1E83E745006EBD15 /* WTUpdateSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1918731E83E745006EBD15 /* WTUpdateSource.m */; };
+		1C1918EF1E83E745006EBD15 /* WTDownLoadEntity.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1918751E83E745006EBD15 /* WTDownLoadEntity.h */; };
+		1C1918F01E83E745006EBD15 /* WTDownLoadEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1918761E83E745006EBD15 /* WTDownLoadEntity.m */; };
+		1C1918F11E83E745006EBD15 /* WTDownloadUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1918771E83E745006EBD15 /* WTDownloadUtil.h */; };
+		1C1918F21E83E745006EBD15 /* WTDownloadUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1918781E83E745006EBD15 /* WTDownloadUtil.m */; };
+		1C1918F31E83E745006EBD15 /* WTFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1918791E83E745006EBD15 /* WTFileManager.h */; };
+		1C1918F41E83E745006EBD15 /* WTFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C19187A1E83E745006EBD15 /* WTFileManager.m */; };
+		1C1918F51E83E745006EBD15 /* WTLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C19187B1E83E745006EBD15 /* WTLog.h */; };
+		1C1918F61E83E745006EBD15 /* WTLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C19187C1E83E745006EBD15 /* WTLog.m */; };
+		1C1918F71E83E745006EBD15 /* WTPathUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C19187D1E83E745006EBD15 /* WTPathUtil.h */; };
+		1C1918F81E83E745006EBD15 /* WTPathUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C19187E1E83E745006EBD15 /* WTPathUtil.m */; };
+		1C1918F91E83E745006EBD15 /* WTUpdateUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C19187F1E83E745006EBD15 /* WTUpdateUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C1918FA1E83E745006EBD15 /* WTUpdateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1918801E83E745006EBD15 /* WTUpdateUtil.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C1917D91E83DB4C006EBD15 /* Personal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Personal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C1917DC1E83DB4C006EBD15 /* Personal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Personal.h; sourceTree = "<group>"; };
+		1C1917DD1E83DB4C006EBD15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C1917F71E83E745006EBD15 /* DMBubbleAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMBubbleAnimation.h; sourceTree = "<group>"; };
+		1C1917F81E83E745006EBD15 /* DMBubbleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMBubbleAnimation.m; sourceTree = "<group>"; };
+		1C1917F91E83E745006EBD15 /* DMDropBoxAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMDropBoxAnimation.h; sourceTree = "<group>"; };
+		1C1917FA1E83E745006EBD15 /* DMDropBoxAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMDropBoxAnimation.m; sourceTree = "<group>"; };
+		1C1917FB1E83E745006EBD15 /* DMGifImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMGifImage.h; sourceTree = "<group>"; };
+		1C1917FC1E83E745006EBD15 /* DMGifImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMGifImage.m; sourceTree = "<group>"; };
+		1C1917FD1E83E745006EBD15 /* DMGifView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMGifView.h; sourceTree = "<group>"; };
+		1C1917FE1E83E745006EBD15 /* DMGifView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMGifView.m; sourceTree = "<group>"; };
+		1C1917FF1E83E745006EBD15 /* DMGrowAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMGrowAnimation.h; sourceTree = "<group>"; };
+		1C1918001E83E745006EBD15 /* DMGrowAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMGrowAnimation.m; sourceTree = "<group>"; };
+		1C1918011E83E745006EBD15 /* DMMagicScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMMagicScrollView.h; sourceTree = "<group>"; };
+		1C1918021E83E745006EBD15 /* DMMagicScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMMagicScrollView.m; sourceTree = "<group>"; };
+		1C1918031E83E745006EBD15 /* DMPropertyAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMPropertyAnimation.h; sourceTree = "<group>"; };
+		1C1918041E83E745006EBD15 /* DMPropertyAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMPropertyAnimation.m; sourceTree = "<group>"; };
+		1C1918051E83E745006EBD15 /* DMPullToRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMPullToRefreshView.h; sourceTree = "<group>"; };
+		1C1918061E83E745006EBD15 /* DMPullToRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMPullToRefreshView.m; sourceTree = "<group>"; };
+		1C1918091E83E745006EBD15 /* DMBridgeRN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMBridgeRN.h; sourceTree = "<group>"; };
+		1C19180A1E83E745006EBD15 /* DMBridgeRN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMBridgeRN.m; sourceTree = "<group>"; };
+		1C19180B1E83E745006EBD15 /* DMModuleBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMModuleBase.h; sourceTree = "<group>"; };
+		1C19180C1E83E745006EBD15 /* DMModuleBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMModuleBase.m; sourceTree = "<group>"; };
+		1C19180D1E83E745006EBD15 /* DMModuleGalleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMModuleGalleon.h; sourceTree = "<group>"; };
+		1C19180E1E83E745006EBD15 /* DMModuleGalleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMModuleGalleon.m; sourceTree = "<group>"; };
+		1C1918101E83E745006EBD15 /* DMBridgeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMBridgeHelper.h; sourceTree = "<group>"; };
+		1C1918111E83E745006EBD15 /* DMBridgeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMBridgeHelper.m; sourceTree = "<group>"; };
+		1C1918121E83E745006EBD15 /* DMBridgeJavascript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMBridgeJavascript.h; sourceTree = "<group>"; };
+		1C1918131E83E745006EBD15 /* DMBridgeJavascript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMBridgeJavascript.m; sourceTree = "<group>"; };
+		1C1918141E83E745006EBD15 /* DMBridgeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMBridgeObject.h; sourceTree = "<group>"; };
+		1C1918151E83E745006EBD15 /* DMBridgeObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMBridgeObject.m; sourceTree = "<group>"; };
+		1C1918161E83E745006EBD15 /* DMJSPageBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMJSPageBridge.h; sourceTree = "<group>"; };
+		1C1918171E83E745006EBD15 /* DMJSPageBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMJSPageBridge.m; sourceTree = "<group>"; };
+		1C1918191E83E745006EBD15 /* DMPage+DefaultNavigatorBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DMPage+DefaultNavigatorBar.h"; sourceTree = "<group>"; };
+		1C19181A1E83E745006EBD15 /* DMPage+DefaultNavigatorBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DMPage+DefaultNavigatorBar.m"; sourceTree = "<group>"; };
+		1C19181B1E83E745006EBD15 /* UIWebView+CheckGalleonExist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+CheckGalleonExist.h"; sourceTree = "<group>"; };
+		1C19181C1E83E745006EBD15 /* UIWebView+CheckGalleonExist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+CheckGalleonExist.m"; sourceTree = "<group>"; };
+		1C19181E1E83E745006EBD15 /* DMCacheObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCacheObject.h; sourceTree = "<group>"; };
+		1C19181F1E83E745006EBD15 /* DMCacheObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCacheObject.m; sourceTree = "<group>"; };
+		1C1918201E83E745006EBD15 /* DMLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMLog.h; sourceTree = "<group>"; };
+		1C1918211E83E745006EBD15 /* DMLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMLog.m; sourceTree = "<group>"; };
+		1C1918221E83E745006EBD15 /* DMMutiProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMMutiProxy.h; sourceTree = "<group>"; };
+		1C1918231E83E745006EBD15 /* DMMutiProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMMutiProxy.m; sourceTree = "<group>"; };
+		1C1918241E83E745006EBD15 /* DMReflectUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMReflectUtil.h; sourceTree = "<group>"; };
+		1C1918251E83E745006EBD15 /* DMReflectUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMReflectUtil.m; sourceTree = "<group>"; };
+		1C1918261E83E745006EBD15 /* DMSafeThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMSafeThread.h; sourceTree = "<group>"; };
+		1C1918271E83E745006EBD15 /* DMStringUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMStringUtils.h; sourceTree = "<group>"; };
+		1C1918281E83E745006EBD15 /* DMStringUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMStringUtils.m; sourceTree = "<group>"; };
+		1C1918291E83E745006EBD15 /* DMUrlConcat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMUrlConcat.h; sourceTree = "<group>"; };
+		1C19182A1E83E745006EBD15 /* DMUrlConcat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMUrlConcat.m; sourceTree = "<group>"; };
+		1C19182B1E83E745006EBD15 /* DMUrlDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMUrlDecoder.h; sourceTree = "<group>"; };
+		1C19182C1E83E745006EBD15 /* DMUrlDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMUrlDecoder.m; sourceTree = "<group>"; };
+		1C19182D1E83E745006EBD15 /* DMUrlEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMUrlEncoder.h; sourceTree = "<group>"; };
+		1C19182E1E83E745006EBD15 /* DMUrlEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMUrlEncoder.m; sourceTree = "<group>"; };
+		1C19182F1E83E745006EBD15 /* DMWeakify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMWeakify.h; sourceTree = "<group>"; };
+		1C1918321E83E745006EBD15 /* DMMagicMoveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMMagicMoveCell.h; sourceTree = "<group>"; };
+		1C1918331E83E745006EBD15 /* DMMagicMoveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMMagicMoveCell.m; sourceTree = "<group>"; };
+		1C1918341E83E745006EBD15 /* DMPageAnimateMagicMove.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMPageAnimateMagicMove.h; sourceTree = "<group>"; };
+		1C1918351E83E745006EBD15 /* DMPageAnimateMagicMove.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMPageAnimateMagicMove.m; sourceTree = "<group>"; };
+		1C1918361E83E745006EBD15 /* DMPageAnimatePopBottom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMPageAnimatePopBottom.h; sourceTree = "<group>"; };
+		1C1918371E83E745006EBD15 /* DMPageAnimatePopBottom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMPageAnimatePopBottom.m; sourceTree = "<group>"; };
+		1C1918381E83E745006EBD15 /* DMPageAnimatePopRight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMPageAnimatePopRight.h; sourceTree = "<group>"; };
+		1C1918391E83E745006EBD15 /* DMPageAnimatePopRight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMPageAnimatePopRight.m; sourceTree = "<group>"; };
+		1C19183A1E83E745006EBD15 /* DMPageAnimatePushLeft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMPageAnimatePushLeft.h; sourceTree = "<group>"; };
+		1C19183B1E83E745006EBD15 /* DMPageAnimatePushLeft.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMPageAnimatePushLeft.m; sourceTree = "<group>"; };
+		1C19183C1E83E745006EBD15 /* DMPageAnimatePushPop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMPageAnimatePushPop.h; sourceTree = "<group>"; };
+		1C19183D1E83E745006EBD15 /* DMPageAnimatePushPop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMPageAnimatePushPop.m; sourceTree = "<group>"; };
+		1C19183E1E83E745006EBD15 /* DMPageAnimatePushTop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMPageAnimatePushTop.h; sourceTree = "<group>"; };
+		1C19183F1E83E745006EBD15 /* DMPageAnimatePushTop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMPageAnimatePushTop.m; sourceTree = "<group>"; };
+		1C1918401E83E745006EBD15 /* DMNavigator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMNavigator.h; sourceTree = "<group>"; };
+		1C1918411E83E745006EBD15 /* DMNavigator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMNavigator.m; sourceTree = "<group>"; };
+		1C1918431E83E745006EBD15 /* DMBridgeProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMBridgeProtocol.h; sourceTree = "<group>"; };
+		1C1918441E83E745006EBD15 /* DMEvaluateScript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMEvaluateScript.h; sourceTree = "<group>"; };
+		1C1918451E83E745006EBD15 /* DMMagicMoveSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMMagicMoveSet.h; sourceTree = "<group>"; };
+		1C1918461E83E745006EBD15 /* DMPageAnimate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMPageAnimate.h; sourceTree = "<group>"; };
+		1C1918471E83E745006EBD15 /* DMPageAware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMPageAware.h; sourceTree = "<group>"; };
+		1C1918481E83E745006EBD15 /* DMPageLifeCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMPageLifeCircle.h; sourceTree = "<group>"; };
+		1C19184A1E83E745006EBD15 /* DKBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKBaseRequest.h; sourceTree = "<group>"; };
+		1C19184B1E83E745006EBD15 /* DKBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKBaseRequest.m; sourceTree = "<group>"; };
+		1C19184C1E83E745006EBD15 /* DKBaseResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKBaseResponse.h; sourceTree = "<group>"; };
+		1C19184D1E83E745006EBD15 /* DKBaseResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKBaseResponse.m; sourceTree = "<group>"; };
+		1C19184E1E83E745006EBD15 /* DKHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKHttpClient.h; sourceTree = "<group>"; };
+		1C19184F1E83E745006EBD15 /* DKHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKHttpClient.m; sourceTree = "<group>"; };
+		1C1918511E83E745006EBD15 /* DMNibController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMNibController.h; sourceTree = "<group>"; };
+		1C1918521E83E745006EBD15 /* DMNibController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMNibController.m; sourceTree = "<group>"; };
+		1C1918531E83E745006EBD15 /* DMPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMPage.h; sourceTree = "<group>"; };
+		1C1918541E83E745006EBD15 /* DMPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMPage.m; sourceTree = "<group>"; };
+		1C1918551E83E745006EBD15 /* DMRNPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMRNPage.h; sourceTree = "<group>"; };
+		1C1918561E83E745006EBD15 /* DMRNPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMRNPage.m; sourceTree = "<group>"; };
+		1C1918571E83E745006EBD15 /* DMWebPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMWebPage.h; sourceTree = "<group>"; };
+		1C1918581E83E745006EBD15 /* DMWebPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMWebPage.m; sourceTree = "<group>"; };
+		1C19185A1E83E745006EBD15 /* DKStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKStorage.h; sourceTree = "<group>"; };
+		1C19185B1E83E745006EBD15 /* DKStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKStorage.m; sourceTree = "<group>"; };
+		1C19185C1E83E745006EBD15 /* DKStorageUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKStorageUtil.h; sourceTree = "<group>"; };
+		1C19185D1E83E745006EBD15 /* DKStorageUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKStorageUtil.m; sourceTree = "<group>"; };
+		1C19185E1E83E745006EBD15 /* DMCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCache.h; sourceTree = "<group>"; };
+		1C19185F1E83E745006EBD15 /* DMCache.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DMCache.mm; sourceTree = "<group>"; };
+		1C1918631E83E745006EBD15 /* WTChartsRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTChartsRequest.h; sourceTree = "<group>"; };
+		1C1918641E83E745006EBD15 /* WTChartsRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTChartsRequest.m; sourceTree = "<group>"; };
+		1C1918661E83E745006EBD15 /* WTChartsResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTChartsResponse.h; sourceTree = "<group>"; };
+		1C1918671E83E745006EBD15 /* WTChartsResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTChartsResponse.m; sourceTree = "<group>"; };
+		1C1918681E83E745006EBD15 /* WTChartsSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTChartsSetting.h; sourceTree = "<group>"; };
+		1C1918691E83E745006EBD15 /* WTChartsSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTChartsSetting.m; sourceTree = "<group>"; };
+		1C19186A1E83E745006EBD15 /* WTSourceSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTSourceSetting.h; sourceTree = "<group>"; };
+		1C19186B1E83E745006EBD15 /* WTSourceSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTSourceSetting.m; sourceTree = "<group>"; };
+		1C19186C1E83E745006EBD15 /* WTSourceUnzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTSourceUnzip.h; sourceTree = "<group>"; };
+		1C19186D1E83E745006EBD15 /* WTSourceUnzip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTSourceUnzip.m; sourceTree = "<group>"; };
+		1C19186E1E83E745006EBD15 /* WTSourceUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTSourceUpdate.h; sourceTree = "<group>"; };
+		1C19186F1E83E745006EBD15 /* WTSourceUpdate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTSourceUpdate.m; sourceTree = "<group>"; };
+		1C1918701E83E745006EBD15 /* WTUpdateListInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTUpdateListInfo.h; sourceTree = "<group>"; };
+		1C1918711E83E745006EBD15 /* WTUpdateListInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTUpdateListInfo.m; sourceTree = "<group>"; };
+		1C1918721E83E745006EBD15 /* WTUpdateSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTUpdateSource.h; sourceTree = "<group>"; };
+		1C1918731E83E745006EBD15 /* WTUpdateSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTUpdateSource.m; sourceTree = "<group>"; };
+		1C1918751E83E745006EBD15 /* WTDownLoadEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTDownLoadEntity.h; sourceTree = "<group>"; };
+		1C1918761E83E745006EBD15 /* WTDownLoadEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTDownLoadEntity.m; sourceTree = "<group>"; };
+		1C1918771E83E745006EBD15 /* WTDownloadUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTDownloadUtil.h; sourceTree = "<group>"; };
+		1C1918781E83E745006EBD15 /* WTDownloadUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTDownloadUtil.m; sourceTree = "<group>"; };
+		1C1918791E83E745006EBD15 /* WTFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTFileManager.h; sourceTree = "<group>"; };
+		1C19187A1E83E745006EBD15 /* WTFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTFileManager.m; sourceTree = "<group>"; };
+		1C19187B1E83E745006EBD15 /* WTLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTLog.h; sourceTree = "<group>"; };
+		1C19187C1E83E745006EBD15 /* WTLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTLog.m; sourceTree = "<group>"; };
+		1C19187D1E83E745006EBD15 /* WTPathUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTPathUtil.h; sourceTree = "<group>"; };
+		1C19187E1E83E745006EBD15 /* WTPathUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTPathUtil.m; sourceTree = "<group>"; };
+		1C19187F1E83E745006EBD15 /* WTUpdateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTUpdateUtil.h; sourceTree = "<group>"; };
+		1C1918801E83E745006EBD15 /* WTUpdateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTUpdateUtil.m; sourceTree = "<group>"; };
+		4574B4578C911AAD454D68E0 /* Pods-Personal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Personal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Personal/Pods-Personal.debug.xcconfig"; sourceTree = "<group>"; };
+		52311BC1E65F2EE3B065A999 /* Pods-Personal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Personal.release.xcconfig"; path = "Pods/Target Support Files/Pods-Personal/Pods-Personal.release.xcconfig"; sourceTree = "<group>"; };
+		A711A1C7E6C5CED078A6EE1A /* libPods-Personal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Personal.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C1917D51E83DB4C006EBD15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C1917CF1E83DB4C006EBD15 = {
+			isa = PBXGroup;
+			children = (
+				1C1917DB1E83DB4C006EBD15 /* Personal */,
+				1C1917DA1E83DB4C006EBD15 /* Products */,
+				CD470C7F2791216E66B2F44A /* Pods */,
+				C3BF798B453B65120F2EF8E0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1C1917DA1E83DB4C006EBD15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C1917D91E83DB4C006EBD15 /* Personal.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C1917DB1E83DB4C006EBD15 /* Personal */ = {
+			isa = PBXGroup;
+			children = (
+				1C1917F51E83E745006EBD15 /* Classes */,
+				1C1917DC1E83DB4C006EBD15 /* Personal.h */,
+				1C1917DD1E83DB4C006EBD15 /* Info.plist */,
+			);
+			path = Personal;
+			sourceTree = "<group>";
+		};
+		1C1917F51E83E745006EBD15 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1C1917F61E83E745006EBD15 /* Animation */,
+				1C1918071E83E745006EBD15 /* Bridge */,
+				1C1918181E83E745006EBD15 /* Category */,
+				1C19181D1E83E745006EBD15 /* Core */,
+				1C1918301E83E745006EBD15 /* Navigator */,
+				1C1918491E83E745006EBD15 /* Network */,
+				1C1918501E83E745006EBD15 /* Page */,
+				1C1918591E83E745006EBD15 /* Storage */,
+				1C1918601E83E745006EBD15 /* Watchtower */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1C1917F61E83E745006EBD15 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				1C1917F71E83E745006EBD15 /* DMBubbleAnimation.h */,
+				1C1917F81E83E745006EBD15 /* DMBubbleAnimation.m */,
+				1C1917F91E83E745006EBD15 /* DMDropBoxAnimation.h */,
+				1C1917FA1E83E745006EBD15 /* DMDropBoxAnimation.m */,
+				1C1917FB1E83E745006EBD15 /* DMGifImage.h */,
+				1C1917FC1E83E745006EBD15 /* DMGifImage.m */,
+				1C1917FD1E83E745006EBD15 /* DMGifView.h */,
+				1C1917FE1E83E745006EBD15 /* DMGifView.m */,
+				1C1917FF1E83E745006EBD15 /* DMGrowAnimation.h */,
+				1C1918001E83E745006EBD15 /* DMGrowAnimation.m */,
+				1C1918011E83E745006EBD15 /* DMMagicScrollView.h */,
+				1C1918021E83E745006EBD15 /* DMMagicScrollView.m */,
+				1C1918031E83E745006EBD15 /* DMPropertyAnimation.h */,
+				1C1918041E83E745006EBD15 /* DMPropertyAnimation.m */,
+				1C1918051E83E745006EBD15 /* DMPullToRefreshView.h */,
+				1C1918061E83E745006EBD15 /* DMPullToRefreshView.m */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		1C1918071E83E745006EBD15 /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				1C1918081E83E745006EBD15 /* BridgeRN */,
+				1C19180F1E83E745006EBD15 /* BridgeWeb */,
+			);
+			path = Bridge;
+			sourceTree = "<group>";
+		};
+		1C1918081E83E745006EBD15 /* BridgeRN */ = {
+			isa = PBXGroup;
+			children = (
+				1C1918091E83E745006EBD15 /* DMBridgeRN.h */,
+				1C19180A1E83E745006EBD15 /* DMBridgeRN.m */,
+				1C19180B1E83E745006EBD15 /* DMModuleBase.h */,
+				1C19180C1E83E745006EBD15 /* DMModuleBase.m */,
+				1C19180D1E83E745006EBD15 /* DMModuleGalleon.h */,
+				1C19180E1E83E745006EBD15 /* DMModuleGalleon.m */,
+			);
+			path = BridgeRN;
+			sourceTree = "<group>";
+		};
+		1C19180F1E83E745006EBD15 /* BridgeWeb */ = {
+			isa = PBXGroup;
+			children = (
+				1C1918101E83E745006EBD15 /* DMBridgeHelper.h */,
+				1C1918111E83E745006EBD15 /* DMBridgeHelper.m */,
+				1C1918121E83E745006EBD15 /* DMBridgeJavascript.h */,
+				1C1918131E83E745006EBD15 /* DMBridgeJavascript.m */,
+				1C1918141E83E745006EBD15 /* DMBridgeObject.h */,
+				1C1918151E83E745006EBD15 /* DMBridgeObject.m */,
+				1C1918161E83E745006EBD15 /* DMJSPageBridge.h */,
+				1C1918171E83E745006EBD15 /* DMJSPageBridge.m */,
+			);
+			path = BridgeWeb;
+			sourceTree = "<group>";
+		};
+		1C1918181E83E745006EBD15 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				1C1918191E83E745006EBD15 /* DMPage+DefaultNavigatorBar.h */,
+				1C19181A1E83E745006EBD15 /* DMPage+DefaultNavigatorBar.m */,
+				1C19181B1E83E745006EBD15 /* UIWebView+CheckGalleonExist.h */,
+				1C19181C1E83E745006EBD15 /* UIWebView+CheckGalleonExist.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		1C19181D1E83E745006EBD15 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1C19181E1E83E745006EBD15 /* DMCacheObject.h */,
+				1C19181F1E83E745006EBD15 /* DMCacheObject.m */,
+				1C1918201E83E745006EBD15 /* DMLog.h */,
+				1C1918211E83E745006EBD15 /* DMLog.m */,
+				1C1918221E83E745006EBD15 /* DMMutiProxy.h */,
+				1C1918231E83E745006EBD15 /* DMMutiProxy.m */,
+				1C1918241E83E745006EBD15 /* DMReflectUtil.h */,
+				1C1918251E83E745006EBD15 /* DMReflectUtil.m */,
+				1C1918261E83E745006EBD15 /* DMSafeThread.h */,
+				1C1918271E83E745006EBD15 /* DMStringUtils.h */,
+				1C1918281E83E745006EBD15 /* DMStringUtils.m */,
+				1C1918291E83E745006EBD15 /* DMUrlConcat.h */,
+				1C19182A1E83E745006EBD15 /* DMUrlConcat.m */,
+				1C19182B1E83E745006EBD15 /* DMUrlDecoder.h */,
+				1C19182C1E83E745006EBD15 /* DMUrlDecoder.m */,
+				1C19182D1E83E745006EBD15 /* DMUrlEncoder.h */,
+				1C19182E1E83E745006EBD15 /* DMUrlEncoder.m */,
+				1C19182F1E83E745006EBD15 /* DMWeakify.h */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		1C1918301E83E745006EBD15 /* Navigator */ = {
+			isa = PBXGroup;
+			children = (
+				1C1918311E83E745006EBD15 /* Animate */,
+				1C1918401E83E745006EBD15 /* DMNavigator.h */,
+				1C1918411E83E745006EBD15 /* DMNavigator.m */,
+				1C1918421E83E745006EBD15 /* Protocol */,
+			);
+			path = Navigator;
+			sourceTree = "<group>";
+		};
+		1C1918311E83E745006EBD15 /* Animate */ = {
+			isa = PBXGroup;
+			children = (
+				1C1918321E83E745006EBD15 /* DMMagicMoveCell.h */,
+				1C1918331E83E745006EBD15 /* DMMagicMoveCell.m */,
+				1C1918341E83E745006EBD15 /* DMPageAnimateMagicMove.h */,
+				1C1918351E83E745006EBD15 /* DMPageAnimateMagicMove.m */,
+				1C1918361E83E745006EBD15 /* DMPageAnimatePopBottom.h */,
+				1C1918371E83E745006EBD15 /* DMPageAnimatePopBottom.m */,
+				1C1918381E83E745006EBD15 /* DMPageAnimatePopRight.h */,
+				1C1918391E83E745006EBD15 /* DMPageAnimatePopRight.m */,
+				1C19183A1E83E745006EBD15 /* DMPageAnimatePushLeft.h */,
+				1C19183B1E83E745006EBD15 /* DMPageAnimatePushLeft.m */,
+				1C19183C1E83E745006EBD15 /* DMPageAnimatePushPop.h */,
+				1C19183D1E83E745006EBD15 /* DMPageAnimatePushPop.m */,
+				1C19183E1E83E745006EBD15 /* DMPageAnimatePushTop.h */,
+				1C19183F1E83E745006EBD15 /* DMPageAnimatePushTop.m */,
+			);
+			path = Animate;
+			sourceTree = "<group>";
+		};
+		1C1918421E83E745006EBD15 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				1C1918431E83E745006EBD15 /* DMBridgeProtocol.h */,
+				1C1918441E83E745006EBD15 /* DMEvaluateScript.h */,
+				1C1918451E83E745006EBD15 /* DMMagicMoveSet.h */,
+				1C1918461E83E745006EBD15 /* DMPageAnimate.h */,
+				1C1918471E83E745006EBD15 /* DMPageAware.h */,
+				1C1918481E83E745006EBD15 /* DMPageLifeCircle.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		1C1918491E83E745006EBD15 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1C19184A1E83E745006EBD15 /* DKBaseRequest.h */,
+				1C19184B1E83E745006EBD15 /* DKBaseRequest.m */,
+				1C19184C1E83E745006EBD15 /* DKBaseResponse.h */,
+				1C19184D1E83E745006EBD15 /* DKBaseResponse.m */,
+				1C19184E1E83E745006EBD15 /* DKHttpClient.h */,
+				1C19184F1E83E745006EBD15 /* DKHttpClient.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		1C1918501E83E745006EBD15 /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				1C1918511E83E745006EBD15 /* DMNibController.h */,
+				1C1918521E83E745006EBD15 /* DMNibController.m */,
+				1C1918531E83E745006EBD15 /* DMPage.h */,
+				1C1918541E83E745006EBD15 /* DMPage.m */,
+				1C1918551E83E745006EBD15 /* DMRNPage.h */,
+				1C1918561E83E745006EBD15 /* DMRNPage.m */,
+				1C1918571E83E745006EBD15 /* DMWebPage.h */,
+				1C1918581E83E745006EBD15 /* DMWebPage.m */,
+			);
+			path = Page;
+			sourceTree = "<group>";
+		};
+		1C1918591E83E745006EBD15 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				1C19185A1E83E745006EBD15 /* DKStorage.h */,
+				1C19185B1E83E745006EBD15 /* DKStorage.m */,
+				1C19185C1E83E745006EBD15 /* DKStorageUtil.h */,
+				1C19185D1E83E745006EBD15 /* DKStorageUtil.m */,
+				1C19185E1E83E745006EBD15 /* DMCache.h */,
+				1C19185F1E83E745006EBD15 /* DMCache.mm */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		1C1918601E83E745006EBD15 /* Watchtower */ = {
+			isa = PBXGroup;
+			children = (
+				1C1918611E83E745006EBD15 /* model */,
+				1C1918741E83E745006EBD15 /* util */,
+				1C19187F1E83E745006EBD15 /* WTUpdateUtil.h */,
+				1C1918801E83E745006EBD15 /* WTUpdateUtil.m */,
+			);
+			path = Watchtower;
+			sourceTree = "<group>";
+		};
+		1C1918611E83E745006EBD15 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				1C1918621E83E745006EBD15 /* Request */,
+				1C1918651E83E745006EBD15 /* Response */,
+				1C1918681E83E745006EBD15 /* WTChartsSetting.h */,
+				1C1918691E83E745006EBD15 /* WTChartsSetting.m */,
+				1C19186A1E83E745006EBD15 /* WTSourceSetting.h */,
+				1C19186B1E83E745006EBD15 /* WTSourceSetting.m */,
+				1C19186C1E83E745006EBD15 /* WTSourceUnzip.h */,
+				1C19186D1E83E745006EBD15 /* WTSourceUnzip.m */,
+				1C19186E1E83E745006EBD15 /* WTSourceUpdate.h */,
+				1C19186F1E83E745006EBD15 /* WTSourceUpdate.m */,
+				1C1918701E83E745006EBD15 /* WTUpdateListInfo.h */,
+				1C1918711E83E745006EBD15 /* WTUpdateListInfo.m */,
+				1C1918721E83E745006EBD15 /* WTUpdateSource.h */,
+				1C1918731E83E745006EBD15 /* WTUpdateSource.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		1C1918621E83E745006EBD15 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				1C1918631E83E745006EBD15 /* WTChartsRequest.h */,
+				1C1918641E83E745006EBD15 /* WTChartsRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		1C1918651E83E745006EBD15 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				1C1918661E83E745006EBD15 /* WTChartsResponse.h */,
+				1C1918671E83E745006EBD15 /* WTChartsResponse.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		1C1918741E83E745006EBD15 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				1C1918751E83E745006EBD15 /* WTDownLoadEntity.h */,
+				1C1918761E83E745006EBD15 /* WTDownLoadEntity.m */,
+				1C1918771E83E745006EBD15 /* WTDownloadUtil.h */,
+				1C1918781E83E745006EBD15 /* WTDownloadUtil.m */,
+				1C1918791E83E745006EBD15 /* WTFileManager.h */,
+				1C19187A1E83E745006EBD15 /* WTFileManager.m */,
+				1C19187B1E83E745006EBD15 /* WTLog.h */,
+				1C19187C1E83E745006EBD15 /* WTLog.m */,
+				1C19187D1E83E745006EBD15 /* WTPathUtil.h */,
+				1C19187E1E83E745006EBD15 /* WTPathUtil.m */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		C3BF798B453B65120F2EF8E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A711A1C7E6C5CED078A6EE1A /* libPods-Personal.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD470C7F2791216E66B2F44A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4574B4578C911AAD454D68E0 /* Pods-Personal.debug.xcconfig */,
+				52311BC1E65F2EE3B065A999 /* Pods-Personal.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1C1917D61E83DB4C006EBD15 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C19188D1E83E745006EBD15 /* DMPropertyAnimation.h in Headers */,
+				1C1918C71E83E745006EBD15 /* DMMagicMoveSet.h in Headers */,
+				1C1918B21E83E745006EBD15 /* DMUrlEncoder.h in Headers */,
+				1C1918C81E83E745006EBD15 /* DMPageAnimate.h in Headers */,
+				1C1918A11E83E745006EBD15 /* UIWebView+CheckGalleonExist.h in Headers */,
+				1C1918C61E83E745006EBD15 /* DMEvaluateScript.h in Headers */,
+				1C1918DB1E83E745006EBD15 /* DKStorageUtil.h in Headers */,
+				1C1918CD1E83E745006EBD15 /* DKBaseResponse.h in Headers */,
+				1C1918AC1E83E745006EBD15 /* DMStringUtils.h in Headers */,
+				1C1918D31E83E745006EBD15 /* DMPage.h in Headers */,
+				1C1918C51E83E745006EBD15 /* DMBridgeProtocol.h in Headers */,
+				1C1918871E83E745006EBD15 /* DMGifView.h in Headers */,
+				1C19188F1E83E745006EBD15 /* DMPullToRefreshView.h in Headers */,
+				1C1918971E83E745006EBD15 /* DMBridgeHelper.h in Headers */,
+				1C1918811E83E745006EBD15 /* DMBubbleAnimation.h in Headers */,
+				1C1918A71E83E745006EBD15 /* DMMutiProxy.h in Headers */,
+				1C1918B41E83E745006EBD15 /* DMWeakify.h in Headers */,
+				1C1918D71E83E745006EBD15 /* DMWebPage.h in Headers */,
+				1C1918AB1E83E745006EBD15 /* DMSafeThread.h in Headers */,
+				1C1918DF1E83E745006EBD15 /* WTChartsRequest.h in Headers */,
+				1C1918D11E83E745006EBD15 /* DMNibController.h in Headers */,
+				1C1918CF1E83E745006EBD15 /* DKHttpClient.h in Headers */,
+				1C1918931E83E745006EBD15 /* DMModuleBase.h in Headers */,
+				1C1918A51E83E745006EBD15 /* DMLog.h in Headers */,
+				1C19189B1E83E745006EBD15 /* DMBridgeObject.h in Headers */,
+				1C1918951E83E745006EBD15 /* DMModuleGalleon.h in Headers */,
+				1C1918CA1E83E745006EBD15 /* DMPageLifeCircle.h in Headers */,
+				1C1918D91E83E745006EBD15 /* DKStorage.h in Headers */,
+				1C1918C91E83E745006EBD15 /* DMPageAware.h in Headers */,
+				1C19188B1E83E745006EBD15 /* DMMagicScrollView.h in Headers */,
+				1C1918831E83E745006EBD15 /* DMDropBoxAnimation.h in Headers */,
+				1C1918F91E83E745006EBD15 /* WTUpdateUtil.h in Headers */,
+				1C19189D1E83E745006EBD15 /* DMJSPageBridge.h in Headers */,
+				1C1918B01E83E745006EBD15 /* DMUrlDecoder.h in Headers */,
+				1C19189F1E83E745006EBD15 /* DMPage+DefaultNavigatorBar.h in Headers */,
+				1C1918891E83E745006EBD15 /* DMGrowAnimation.h in Headers */,
+				1C1918C31E83E745006EBD15 /* DMNavigator.h in Headers */,
+				1C1918CB1E83E745006EBD15 /* DKBaseRequest.h in Headers */,
+				1C1918DD1E83E745006EBD15 /* DMCache.h in Headers */,
+				1C1918D51E83E745006EBD15 /* DMRNPage.h in Headers */,
+				1C1918911E83E745006EBD15 /* DMBridgeRN.h in Headers */,
+				1C1918BF1E83E745006EBD15 /* DMPageAnimatePushPop.h in Headers */,
+				1C1918BD1E83E745006EBD15 /* DMPageAnimatePushLeft.h in Headers */,
+				1C1918991E83E745006EBD15 /* DMBridgeJavascript.h in Headers */,
+				1C1918851E83E745006EBD15 /* DMGifImage.h in Headers */,
+				1C1918B71E83E745006EBD15 /* DMPageAnimateMagicMove.h in Headers */,
+				1C1918BB1E83E745006EBD15 /* DMPageAnimatePopRight.h in Headers */,
+				1C1918E31E83E745006EBD15 /* WTChartsSetting.h in Headers */,
+				1C1918F11E83E745006EBD15 /* WTDownloadUtil.h in Headers */,
+				1C1918AE1E83E745006EBD15 /* DMUrlConcat.h in Headers */,
+				1C1918A31E83E745006EBD15 /* DMCacheObject.h in Headers */,
+				1C1918C11E83E745006EBD15 /* DMPageAnimatePushTop.h in Headers */,
+				1C1918EF1E83E745006EBD15 /* WTDownLoadEntity.h in Headers */,
+				1C1918E51E83E745006EBD15 /* WTSourceSetting.h in Headers */,
+				1C1918E71E83E745006EBD15 /* WTSourceUnzip.h in Headers */,
+				1C1918E91E83E745006EBD15 /* WTSourceUpdate.h in Headers */,
+				1C1917DE1E83DB4C006EBD15 /* Personal.h in Headers */,
+				1C1918B91E83E745006EBD15 /* DMPageAnimatePopBottom.h in Headers */,
+				1C1918F31E83E745006EBD15 /* WTFileManager.h in Headers */,
+				1C1918F51E83E745006EBD15 /* WTLog.h in Headers */,
+				1C1918F71E83E745006EBD15 /* WTPathUtil.h in Headers */,
+				1C1918ED1E83E745006EBD15 /* WTUpdateSource.h in Headers */,
+				1C1918EB1E83E745006EBD15 /* WTUpdateListInfo.h in Headers */,
+				1C1918A91E83E745006EBD15 /* DMReflectUtil.h in Headers */,
+				1C1918B51E83E745006EBD15 /* DMMagicMoveCell.h in Headers */,
+				1C1918E11E83E745006EBD15 /* WTChartsResponse.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1C1917D81E83DB4C006EBD15 /* Personal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C1917E11E83DB4C006EBD15 /* Build configuration list for PBXNativeTarget "Personal" */;
+			buildPhases = (
+				B81047A861B3A1862787F154 /* [CP] Check Pods Manifest.lock */,
+				1C1917D41E83DB4C006EBD15 /* Sources */,
+				1C1917D51E83DB4C006EBD15 /* Frameworks */,
+				1C1917D61E83DB4C006EBD15 /* Headers */,
+				1C1917D71E83DB4C006EBD15 /* Resources */,
+				A07EE4ECC89D379A0AB92336 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Personal;
+			productName = Personal;
+			productReference = 1C1917D91E83DB4C006EBD15 /* Personal.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C1917D01E83DB4C006EBD15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = yanghan;
+				TargetAttributes = {
+					1C1917D81E83DB4C006EBD15 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7FLPKND722;
+						ProvisioningStyle = Automatic;
+					};
+					1C1917E41E83E545006EBD15 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7FLPKND722;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1C1917D31E83DB4C006EBD15 /* Build configuration list for PBXProject "Personal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1C1917CF1E83DB4C006EBD15;
+			productRefGroup = 1C1917DA1E83DB4C006EBD15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C1917D81E83DB4C006EBD15 /* Personal */,
+				1C1917E41E83E545006EBD15 /* Apgrate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C1917D71E83DB4C006EBD15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C1917E81E83E554006EBD15 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "FMK_NAME=${PROJECT_NAME}\n# Install dir will be the final output to the framework.\n# The following line create it in the root folder of the current project.\nINSTALL_DIR=${SRCROOT}/Products/${FMK_NAME}.framework\n# Working dir will be deleted after the framework creation.\nWRK_DIR=build\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\n# -configuration ${CONFIGURATION}\n# Clean and Building both architectures.\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos clean build\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator clean build\n# Cleaning the oldest.\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\nmkdir -p \"${INSTALL_DIR}\"\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/${FMK_NAME}\"\nrm -r \"${WRK_DIR}\"\nopen \"${INSTALL_DIR}\"";
+		};
+		A07EE4ECC89D379A0AB92336 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Personal/Pods-Personal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B81047A861B3A1862787F154 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C1917D41E83DB4C006EBD15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C1918BE1E83E745006EBD15 /* DMPageAnimatePushLeft.m in Sources */,
+				1C1918FA1E83E745006EBD15 /* WTUpdateUtil.m in Sources */,
+				1C1918881E83E745006EBD15 /* DMGifView.m in Sources */,
+				1C1918AD1E83E745006EBD15 /* DMStringUtils.m in Sources */,
+				1C1918981E83E745006EBD15 /* DMBridgeHelper.m in Sources */,
+				1C1918A41E83E745006EBD15 /* DMCacheObject.m in Sources */,
+				1C1918F81E83E745006EBD15 /* WTPathUtil.m in Sources */,
+				1C1918F01E83E745006EBD15 /* WTDownLoadEntity.m in Sources */,
+				1C1918D21E83E745006EBD15 /* DMNibController.m in Sources */,
+				1C19189C1E83E745006EBD15 /* DMBridgeObject.m in Sources */,
+				1C19189E1E83E745006EBD15 /* DMJSPageBridge.m in Sources */,
+				1C1918D01E83E745006EBD15 /* DKHttpClient.m in Sources */,
+				1C1918A61E83E745006EBD15 /* DMLog.m in Sources */,
+				1C1918D81E83E745006EBD15 /* DMWebPage.m in Sources */,
+				1C19189A1E83E745006EBD15 /* DMBridgeJavascript.m in Sources */,
+				1C1918A01E83E745006EBD15 /* DMPage+DefaultNavigatorBar.m in Sources */,
+				1C1918B31E83E745006EBD15 /* DMUrlEncoder.m in Sources */,
+				1C1918E21E83E745006EBD15 /* WTChartsResponse.m in Sources */,
+				1C1918C01E83E745006EBD15 /* DMPageAnimatePushPop.m in Sources */,
+				1C1918EE1E83E745006EBD15 /* WTUpdateSource.m in Sources */,
+				1C1918941E83E745006EBD15 /* DMModuleBase.m in Sources */,
+				1C1918921E83E745006EBD15 /* DMBridgeRN.m in Sources */,
+				1C1918B11E83E745006EBD15 /* DMUrlDecoder.m in Sources */,
+				1C1918D41E83E745006EBD15 /* DMPage.m in Sources */,
+				1C1918F41E83E745006EBD15 /* WTFileManager.m in Sources */,
+				1C1918DE1E83E745006EBD15 /* DMCache.mm in Sources */,
+				1C1918AF1E83E745006EBD15 /* DMUrlConcat.m in Sources */,
+				1C1918E61E83E745006EBD15 /* WTSourceSetting.m in Sources */,
+				1C1918961E83E745006EBD15 /* DMModuleGalleon.m in Sources */,
+				1C1918CE1E83E745006EBD15 /* DKBaseResponse.m in Sources */,
+				1C1918C21E83E745006EBD15 /* DMPageAnimatePushTop.m in Sources */,
+				1C1918841E83E745006EBD15 /* DMDropBoxAnimation.m in Sources */,
+				1C19188C1E83E745006EBD15 /* DMMagicScrollView.m in Sources */,
+				1C1918DA1E83E745006EBD15 /* DKStorage.m in Sources */,
+				1C1918EA1E83E745006EBD15 /* WTSourceUpdate.m in Sources */,
+				1C1918C41E83E745006EBD15 /* DMNavigator.m in Sources */,
+				1C1918901E83E745006EBD15 /* DMPullToRefreshView.m in Sources */,
+				1C1918B81E83E745006EBD15 /* DMPageAnimateMagicMove.m in Sources */,
+				1C1918A81E83E745006EBD15 /* DMMutiProxy.m in Sources */,
+				1C1918F61E83E745006EBD15 /* WTLog.m in Sources */,
+				1C1918E41E83E745006EBD15 /* WTChartsSetting.m in Sources */,
+				1C1918DC1E83E745006EBD15 /* DKStorageUtil.m in Sources */,
+				1C1918B61E83E745006EBD15 /* DMMagicMoveCell.m in Sources */,
+				1C1918861E83E745006EBD15 /* DMGifImage.m in Sources */,
+				1C19188A1E83E745006EBD15 /* DMGrowAnimation.m in Sources */,
+				1C1918AA1E83E745006EBD15 /* DMReflectUtil.m in Sources */,
+				1C1918BA1E83E745006EBD15 /* DMPageAnimatePopBottom.m in Sources */,
+				1C1918821E83E745006EBD15 /* DMBubbleAnimation.m in Sources */,
+				1C1918D61E83E745006EBD15 /* DMRNPage.m in Sources */,
+				1C1918A21E83E745006EBD15 /* UIWebView+CheckGalleonExist.m in Sources */,
+				1C1918BC1E83E745006EBD15 /* DMPageAnimatePopRight.m in Sources */,
+				1C1918EC1E83E745006EBD15 /* WTUpdateListInfo.m in Sources */,
+				1C1918E81E83E745006EBD15 /* WTSourceUnzip.m in Sources */,
+				1C1918E01E83E745006EBD15 /* WTChartsRequest.m in Sources */,
+				1C1918F21E83E745006EBD15 /* WTDownloadUtil.m in Sources */,
+				1C19188E1E83E745006EBD15 /* DMPropertyAnimation.m in Sources */,
+				1C1918CC1E83E745006EBD15 /* DKBaseRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1C1917DF1E83DB4C006EBD15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1C1917E01E83DB4C006EBD15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1C1917E21E83DB4C006EBD15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4574B4578C911AAD454D68E0 /* Pods-Personal.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7FLPKND722;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Personal/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dmall.Personal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1C1917E31E83DB4C006EBD15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52311BC1E65F2EE3B065A999 /* Pods-Personal.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7FLPKND722;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Personal/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dmall.Personal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1C1917E51E83E545006EBD15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7FLPKND722;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1C1917E61E83E545006EBD15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7FLPKND722;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C1917D31E83DB4C006EBD15 /* Build configuration list for PBXProject "Personal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C1917DF1E83DB4C006EBD15 /* Debug */,
+				1C1917E01E83DB4C006EBD15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C1917E11E83DB4C006EBD15 /* Build configuration list for PBXNativeTarget "Personal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C1917E21E83DB4C006EBD15 /* Debug */,
+				1C1917E31E83DB4C006EBD15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C1917E71E83E545006EBD15 /* Build configuration list for PBXAggregateTarget "Apgrate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C1917E51E83E545006EBD15 /* Debug */,
+				1C1917E61E83E545006EBD15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C1917D01E83DB4C006EBD15 /* Project object */;
+}
