@@ -26,6 +26,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+                    Personal
                    DESC
 
   s.homepage     = "http://gitlab.dmall.com/Dmall/Specs.git"
@@ -137,13 +138,5 @@ Pod::Spec.new do |s|
   s.dependency "AFNetworking", "3.1.0"
   s.dependency "leveldb",   "1.18"
   s.dependency "ZipArchive", "~> 1.4.0"
-  s.dependency "pod 'React'", ":path => './node_modules/react-native', :subspecs => [
-    'Core',
-    'RCTImage',
-    'RCTNetwork',
-    'RCTText',
-    'RCTWebSocket',
-    # Add any other subspecs you want to use in your project
-    ]"
 
 end
